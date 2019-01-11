@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  CWBPieChart
-//
-//  Created by 成都市中鸽科技 on 2019/1/11.
-//  Copyright © 2019年 成都市中鸽科技. All rights reserved.
-//
 
 import UIKit
 

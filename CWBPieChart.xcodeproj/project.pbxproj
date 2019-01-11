@@ -12,6 +12,7 @@
 		DF26AFB921E88E98000624E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF26AFB721E88E98000624E4 /* Main.storyboard */; };
 		DF26AFBB21E88E99000624E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF26AFBA21E88E99000624E4 /* Assets.xcassets */; };
 		DF26AFBE21E88E99000624E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF26AFBC21E88E99000624E4 /* LaunchScreen.storyboard */; };
+		DF26AFC621E88EC2000624E4 /* CWBPieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF26AFC521E88EC2000624E4 /* CWBPieChart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		DF26AFBA21E88E99000624E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF26AFBD21E88E99000624E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF26AFBF21E88E99000624E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF26AFC521E88EC2000624E4 /* CWBPieChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CWBPieChart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				DF26AFB321E88E98000624E4 /* AppDelegate.swift */,
 				DF26AFB521E88E98000624E4 /* ViewController.swift */,
+				DF26AFC521E88EC2000624E4 /* CWBPieChart.swift */,
 				DF26AFB721E88E98000624E4 /* Main.storyboard */,
 				DF26AFBA21E88E99000624E4 /* Assets.xcassets */,
 				DF26AFBC21E88E99000624E4 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF26AFC621E88EC2000624E4 /* CWBPieChart.swift in Sources */,
 				DF26AFB621E88E98000624E4 /* ViewController.swift in Sources */,
 				DF26AFB421E88E98000624E4 /* AppDelegate.swift in Sources */,
 			);
@@ -285,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7P37J97HN2;
 				INFOPLIST_FILE = CWBPieChart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7P37J97HN2;
 				INFOPLIST_FILE = CWBPieChart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

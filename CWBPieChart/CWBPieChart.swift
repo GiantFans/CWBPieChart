@@ -121,7 +121,7 @@ class CWBPieChart: UIView {
             }
         }
         else{
-            self.setBezil(model:nil, fillColor: RGBColor(r: 230, g: 230, b: 230, alpha: 1), isSelect: true)
+            self.setBezil(model: nil, fillColor: UIColor.init(red: 230 / 255, green: 230 / 255, blue: 230 / 255, alpha: 1), isSelect: true)
         }
     }
     //MARK:创建曲线
@@ -207,7 +207,7 @@ class CWBPieChart: UIView {
         titleLabel?.layer.cornerRadius = height * 0.25 - margin
         titleLabel?.numberOfLines = 0
         self.addSubview(titleLabel!)
-        self.bringSubview(toFront: titleLabel!)
+        self.bringSubviewToFront(titleLabel!)
         if self.dataArray.count > 0 {
             titleLabel?.text = String.init(format: "%.2f%@", self.dataArray[self.selectIndex].percentage * 100,"%")
         }
@@ -220,7 +220,7 @@ class CWBPieChart: UIView {
         let path3 = UIBezierPath.init()
         path3.lineWidth = 1
         path3.move(to: self.center)
-        let point1 = self.calcCirclePoint(center: self.center, angle: (model.end + model.start) * 0.5, radius: height * 0.5 + 3)
+        let point1 = self.calcCirclePoint(center: self.center, angle: (model.end + model.start) * 0.5, radius: self.frame.size.height * 0.5 + 3)
         path3.addLine(to: point1)
         ///数据显示label
         let label = UILabel.init(frame: CGRect.init(x: 0, y: 0, width: 80, height: 20))
